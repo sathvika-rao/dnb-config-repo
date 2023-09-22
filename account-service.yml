@@ -27,4 +27,4 @@ eureka:
       serviceUrl:
         defaultZone: http://localhost:8761/eureka/    
 customProperty:
-  test: account
+  test: account-service
