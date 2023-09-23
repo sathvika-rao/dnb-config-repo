@@ -18,7 +18,7 @@ spring:
     serialization:
       fail-on-empty-beans: false
 server:
-  port: 9001
+  port: 9010
   error:
     include-message: always
 eureka:
