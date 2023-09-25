@@ -5,11 +5,11 @@ spring:
       - id: account-service
         uri: lb://account-service
         predicates:
-        - Path=/api/account/**
+        - Path=/account/**
       - id: customer-service
         uri: lb://customer-service
         predicates:
-        - Path=/api/customer/** 
+        - Path=/customer/** 
         
 server:
   port: 9191
