@@ -22,4 +22,4 @@ eureka:
 jwt:
   secret: mySecretKey
   expireMs: 120000
-  refrEshexpireMs: 120000
+  refrEshexpireMs: 120
